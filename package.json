@@ -1,0 +1,60 @@
+{
+  "name": "festivals-client",
+  "version": "0.1.0",
+  "description": "Festivals client library.",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "async": "^1.2.1",
+    "commander": "^2.8.1",
+    "config": "^1.14.0",
+    "festivals-model": "^0.1.3",
+    "q": "^1.4.1",
+    "request": "^2.58.0",
+    "swagger-js-codegen": "^1.1.3",
+    "winston": "^1.0.1",
+    "winston-loggly": "^1.1.0",
+    "yamljs": "^0.2.3"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.16",
+    "mocha": "^2.2.5",
+    "moment": "^2.10.3",
+    "node-uuid": "^1.4.3",
+    "rewire": "^2.3.4"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --recursive  --timeout 6000 functionalTest",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive functionalTest",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive functionalTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/festivals-platform/npm-festivals-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/festivals-platform/npm-festivals-client/issues"
+  },
+  "keywords": [
+    "festival",
+    "event",
+    "place",
+    "fantasy",
+    "community",
+    "client"
+  ],
+  "author": {
+    "name": "Zenedith",
+    "email": "zenedith@wp.pl"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/festivals-platform/npm-festivals-client",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "festivals-client@0.1.0",
+  "_from": "festivals-client@^0.1.0"
+}

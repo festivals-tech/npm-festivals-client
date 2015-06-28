@@ -1,0 +1,46 @@
+/*jshint -W069 */
+/**
+ * {{&description}}
+ * @class {{&className}}
+ * @param {(string|object)} [domainOrOptions] - The project domain or options object. If object, see the object's optional properties.
+ * @param {string} [domainOrOptions.domain] - The project domain
+ * @param {object} [domainOrOptions.token] - auth token - object with value property and optional headerOrQueryName and isQuery properties
+ */
+var {{&className}} = (function(){
+    'use strict';
+
+    var request = require('request');
+    var Q = require('q');
+
+    function {{&className}}(options){
+        var domain = (typeof options === 'object') ? options.domain : options;
+        this.domain = domain ? domain : '{{&domain}}';
+        if(this.domain.length === 0) {
+            throw new Error('Domain parameter must be specified as a string.');
+        }
+        {{#isSecure}}
+            this.token = (typeof options === 'object') ? (options.token ? options.token : {}) : {};
+        {{/isSecure}}
+    }
+
+    {{#isSecure}}
+        /**
+         * Set Token
+         * @method
+         * @name {{&className}}#setBearerToken
+         * @param {string} value - token's value
+         *
+         */
+        {{&className}}.prototype.setBearerToken = function (value) {
+            this.token.value = value;
+        };
+    {{/isSecure}}
+
+    {{#methods}}
+        {{> method}}
+    {{/methods}}
+
+    return {{&className}};
+})();
+
+exports.{{&className}} = {{&className}};
