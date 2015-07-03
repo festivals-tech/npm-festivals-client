@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/festivals-client.svg)](http://badge.fury.io/js/festivals-client)
 [![Coverage Status](https://coveralls.io/repos/festivals-platform/npm-festivals-client/badge.svg?branch=master)](https://coveralls.io/r/festivals-platform/npm-festivals-client?branch=master)
+[![Codeship Build Status](https://codeship.com/projects/0d2f22d0-d89f-0132-0797-56577b4e3777/status)](https://codeship.com/projects/78888)
 [![Dependency Status](https://david-dm.org/festivals-platform/npm-festivals-client.svg)](https://david-dm.org/festivals-platform/npm-festivals-client)
 
 [![NPM](https://nodei.co/npm/festivals-client.png)](https://nodei.co/npm/festivals-client/)
