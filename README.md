@@ -1,5 +1,11 @@
 # festivals-client
 
+[![npm version](https://badge.fury.io/js/festivals-client.svg)](http://badge.fury.io/js/festivals-client)
+[![Coverage Status](https://coveralls.io/repos/festivals-platform/npm-festivals-client/badge.svg?branch=master)](https://coveralls.io/r/festivals-platform/npm-festivals-client?branch=master)
+[![Dependency Status](https://david-dm.org/festivals-platform/npm-festivals-client.svg)](https://david-dm.org/festivals-platform/npm-festivals-client)
+
+[![NPM](https://nodei.co/npm/festivals-client.png)](https://nodei.co/npm/festivals-client/)
+
 Festivals client library.
 
 ## Installation
