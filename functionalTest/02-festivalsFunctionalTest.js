@@ -344,7 +344,7 @@ describe('festivals functional test', function () {
       name: 'event-name'
     };
 
-    festivalsApiDeferred.getFestivalEvents(festivalId, query)
+    festivalsApiDeferred.getEvents(festivalId, query)
       .then(function (value) {
         var response = value.response;
         var body = value.body;
@@ -373,7 +373,7 @@ describe('festivals functional test', function () {
       name: 'event-name'
     };
 
-    festivalsApi.getFestivalEvents(festivalId, query, function (err, response, body) {
+    festivalsApi.getEvents(festivalId, query, function (err, response, body) {
       //console.log('then', response.statusCode, body);
 
       response.statusCode.should.be.equal(200);
