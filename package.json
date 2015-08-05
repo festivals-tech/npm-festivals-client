@@ -1,6 +1,6 @@
 {
   "name": "festivals-client",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Festivals client library.",
   "main": "./lib/index.js",
   "dependencies": {
@@ -55,6 +55,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "festivals-client@0.1.1",
-  "_from": "festivals-client@^0.1.1"
+  "_id": "festivals-client@0.1.2",
+  "_from": "festivals-client@^0.1.2"
 }
