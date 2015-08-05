@@ -29,6 +29,7 @@ describe('festivals functional test', function () {
     var festival = {
       name: 'festival-name',
       description: 'festival-description',
+      type: 'FANTASY',
       tags: ['festival-tag1', 'festival-tag2'],
       duration: {
         startAt: now.toISOString(),
@@ -72,6 +73,7 @@ describe('festivals functional test', function () {
         body.locations.should.not.be.empty;
         //body.tags.should.be.equal(festival.tags);
         body.name.should.be.equal(festival.name);
+        body.type.should.be.equal(festival.type);
         body.description.should.be.equal(festival.description);
         body.createdAt.should.not.be.empty;
         body.updatedAt.should.not.be.empty;
@@ -95,6 +97,7 @@ describe('festivals functional test', function () {
     var festival = {
       name: 'festival-name',
       description: 'festival-description',
+      type: 'FANTASY',
       tags: ['festival-tag1', 'festival-tag2'],
       duration: {
         startAt: now.toISOString(),
@@ -131,6 +134,7 @@ describe('festivals functional test', function () {
       body.locations.should.not.be.empty;
       //body.tags.should.be.equal(festival.tags);
       body.name.should.be.equal(festival.name);
+      body.type.should.be.equal(festival.type);
       body.description.should.be.equal(festival.description);
       body.createdAt.should.not.be.empty;
       body.updatedAt.should.not.be.empty;
@@ -171,7 +175,8 @@ describe('festivals functional test', function () {
   it('should get festivals', function (done) {
 
     var query = {
-      name: 'festival-name'
+      name: 'festival-name',
+      type: 'FANTASY'
     };
 
     festivalsApi.getFestivals(query, function (err, response, body) {
@@ -436,8 +441,8 @@ describe('festivals functional test', function () {
 
         response.statusCode.should.be.equal(201);
         body.id.should.not.be.empty;
-        body.place.should.not.be.empty;
-        body.category.should.not.be.empty;
+        //body.place.should.not.be.empty;
+        //body.category.should.not.be.empty;
         body.authors.should.be.empty;
         //body.duration.should.be.equal(data.duration);
         body.mainImage.should.not.be.empty;
@@ -453,7 +458,7 @@ describe('festivals functional test', function () {
         var response = value.response;
         var body = value.body;
 
-        //console.log('fail', response.statusCode, body);
+        console.log('fail', response.statusCode, body);
 
         throw new Error(body.message);
 
@@ -488,8 +493,8 @@ describe('festivals functional test', function () {
 
       response.statusCode.should.be.equal(201);
       body.id.should.not.be.empty;
-      body.place.should.not.be.empty;
-      body.category.should.not.be.empty;
+      //body.place.should.not.be.empty;
+      //body.category.should.not.be.empty;
       body.authors.should.be.empty;
       //body.duration.should.be.equal(data.duration);
       body.mainImage.should.not.be.empty;
@@ -515,7 +520,7 @@ describe('festivals functional test', function () {
         var response = value.response;
         var body = value.body;
 
-        //console.log('then', response.statusCode, body);
+        console.log('then', response.statusCode, body);
 
         response.statusCode.should.be.equal(200);
         body.total.should.be.above(0);
