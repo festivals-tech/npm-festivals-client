@@ -29,9 +29,9 @@ YAML.load(program.file, function (swaggerDocs) {
       className: 'FestivalsApi',
       swagger: swaggerDocs,
       template: {
-        class: fs.readFileSync('templates/node-class.mustache', 'utf-8'),
-        method: fs.readFileSync('templates/method.mustache', 'utf-8'),
-        request: fs.readFileSync('templates/node-request.mustache', 'utf-8')
+        class: fs.readFileSync('templates/node/node-class.mustache', 'utf-8'),
+        method: fs.readFileSync('templates/node/method.mustache', 'utf-8'),
+        request: fs.readFileSync('templates/node/node-request.mustache', 'utf-8')
       }
     }
   );
