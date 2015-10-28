@@ -1,9 +1,11 @@
 # festivals-client
 
 [![npm version](https://badge.fury.io/js/festivals-client.svg)](http://badge.fury.io/js/festivals-client)
-[![Coverage Status](https://coveralls.io/repos/festivals-platform/npm-festivals-client/badge.svg?branch=master)](https://coveralls.io/r/festivals-platform/npm-festivals-client?branch=master)
+[![bitHound Score](https://www.bithound.io/github/festivals-tech/npm-festivals-client/badges/score.svg)](https://www.bithound.io/github/festivals-tech/npm-festivals-client)
+[![Coverage Status](https://coveralls.io/repos/festivals-tech/npm-festivals-client/badge.svg?branch=master&service=github)](https://coveralls.io/github/festivals-tech/npm-festivals-client?branch=master)
 [![Codeship Build Status](https://codeship.com/projects/0d2f22d0-d89f-0132-0797-56577b4e3777/status)](https://codeship.com/projects/78888)
-[![Dependency Status](https://david-dm.org/festivals-platform/npm-festivals-client.svg)](https://david-dm.org/festivals-platform/npm-festivals-client)
+[![Dependency Status](https://david-dm.org/festivals-tech/npm-festivals-client.svg)](https://david-dm.org/festivals-tech/npm-festivals-client)
+[![devDependency Status](https://david-dm.org/festivals-tech/npm-festivals-client/dev-status.svg)](https://david-dm.org/festivals-tech/npm-festivals-client#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/festivals-client.png)](https://nodei.co/npm/festivals-client/)
 
@@ -24,6 +26,29 @@ npm install festivals-client --save
 npm install
 npm test
 ```
+
+## Dependencies
+
+- [assert-plus](https://github.com/mcavage/node-assert-plus): Extra assertions on top of node&#39;s assert module
+- [async](): Higher-order functions and common patterns for asynchronous code
+- [commander](): the complete solution for node.js command-line programs
+- [config](https://github.com/lorenwest/node-config): Configuration control for production node deployments
+- [festivals-model](): Festivals app models.
+- [q](https://github.com/kriskowal/q): A library for promises (CommonJS/Promises/A,B,D)
+- [request](): Simplified HTTP request client.
+- [swagger-js-codegen](https://github.com/wcandillon/swagger-js-codegen): A Swagger codegen for JavaScript
+- [winston](): A multi-transport async logging library for Node.js
+- [winston-loggly](https://github.com/indexzero/winston-loggly): A Loggly transport for winston
+- [yamljs](https://github.com/jeremyfa/yaml.js): Standalone JavaScript YAML 1.2 Parser &amp; Encoder. Works under node.js and all major browsers. Also brings command line YAML/JSON conversion tools.
+
+## Dev Dependencies
+
+- [chai](): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
+- [istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests
+- [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
+- [moment](https://github.com/moment/moment): Parse, validate, manipulate, and display dates
+- [node-uuid](https://github.com/broofa/node-uuid): Rigorous implementation of RFC4122 (v1 and v4) UUIDs.
+- [rewire](https://github.com/jhnns/rewire): Easy dependency injection for node.js unit testing
 
 ## Changelog
 
