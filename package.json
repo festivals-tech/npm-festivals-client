@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/festivals-platform/npm-festivals-client.git"
+    "url": "git+https://github.com/festivals-tech/npm-festivals-client.git"
   },
   "bugs": {
-    "url": "https://github.com/festivals-platform/npm-festivals-client/issues"
+    "url": "https://github.com/festivals-tech/npm-festivals-client/issues"
   },
   "keywords": [
     "festival",
@@ -50,7 +50,7 @@
     "email": "zenedith@wp.pl"
   },
   "license": "MIT",
-  "homepage": "https://github.com/festivals-platform/npm-festivals-client",
+  "homepage": "https://github.com/festivals-tech/npm-festivals-client",
   "engines": {
     "node": ">=0.10.0"
   },
