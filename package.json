@@ -1,6 +1,6 @@
 {
   "name": "festivals-client",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Festivals client library.",
   "main": "./lib/index.js",
   "dependencies": {
@@ -11,7 +11,7 @@
     "festivals-model": "^0.1.9",
     "q": "^1.4.1",
     "request": "^2.65.0",
-    "swagger-js-codegen": "^1.1.4",
+    "swagger-js-codegen": "^1.1.5",
     "winston": "^2.0.0",
     "winston-loggly": "^1.2.0",
     "yamljs": "^0.2.4"
@@ -55,6 +55,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "festivals-client@0.1.4",
-  "_from": "festivals-client@^0.1.4"
+  "_id": "festivals-client@0.1.5",
+  "_from": "festivals-client@^0.1.5"
 }
