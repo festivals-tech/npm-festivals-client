@@ -1,28 +1,28 @@
 {
   "name": "festivals-client",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Festivals client library.",
   "main": "./lib/index.js",
   "dependencies": {
-    "assert-plus": "^0.1.5",
+    "assert-plus": "^0.2.0",
     "async": "^1.5.0",
     "commander": "^2.9.0",
-    "config": "^1.16.0",
-    "festivals-model": "^0.1.9",
+    "config": "^1.17.1",
+    "festivals-model": "^0.1.10",
     "q": "^1.4.1",
-    "request": "^2.65.0",
-    "swagger-js-codegen": "^1.1.5",
-    "winston": "^2.0.0",
+    "request": "^2.67.0",
+    "swagger-js-codegen": "^1.1.8",
+    "winston": "^2.1.1",
     "winston-loggly": "^1.2.0",
     "yamljs": "^0.2.4"
   },
   "devDependencies": {
-    "chai": "^3.4.0",
-    "istanbul": "^0.4.0",
-    "mocha": "^2.3.3",
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
     "moment": "^2.10.6",
-    "node-uuid": "^1.4.3",
-    "rewire": "^2.3.4"
+    "node-uuid": "^1.4.7",
+    "rewire": "^2.5.1"
   },
   "scripts": {
     "prepublish": "npm prune",
@@ -55,6 +55,6 @@
     "node": ">=0.10.0"
   },
   "readmeFilename": "README.md",
-  "_id": "festivals-client@0.1.5",
-  "_from": "festivals-client@^0.1.5"
+  "_id": "festivals-client@0.1.6",
+  "_from": "festivals-client@^0.1.6"
 }
