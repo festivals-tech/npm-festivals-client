@@ -30,20 +30,20 @@ npm test
 ## Dependencies
 
 - [assert-plus](https://github.com/mcavage/node-assert-plus): Extra assertions on top of node&#39;s assert module
-- [async](): Higher-order functions and common patterns for asynchronous code
-- [commander](): the complete solution for node.js command-line programs
+- [async](https://github.com/caolan/async): Higher-order functions and common patterns for asynchronous code
+- [commander](https://github.com/tj/commander.js): the complete solution for node.js command-line programs
 - [config](https://github.com/lorenwest/node-config): Configuration control for production node deployments
-- [festivals-model](): Festivals app models.
+- [festivals-model](https://github.com/festivals-tech/npm-festivals-model): Festivals app models.
 - [q](https://github.com/kriskowal/q): A library for promises (CommonJS/Promises/A,B,D)
-- [request](): Simplified HTTP request client.
+- [request](https://github.com/request/request): Simplified HTTP request client.
 - [swagger-js-codegen](https://github.com/wcandillon/swagger-js-codegen): A Swagger codegen for JavaScript
-- [winston](): A multi-transport async logging library for Node.js
+- [winston](https://github.com/winstonjs/winston): A multi-transport async logging library for Node.js
 - [winston-loggly](https://github.com/indexzero/winston-loggly): A Loggly transport for winston
 - [yamljs](https://github.com/jeremyfa/yaml.js): Standalone JavaScript YAML 1.2 Parser &amp; Encoder. Works under node.js and all major browsers. Also brings command line YAML/JSON conversion tools.
 
 ## Dev Dependencies
 
-- [chai](): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
+- [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [istanbul](https://github.com/gotwarlost/istanbul): Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
 - [moment](https://github.com/moment/moment): Parse, validate, manipulate, and display dates
@@ -58,7 +58,7 @@ npm test
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2015 Zenedith
+Copyright (c) 2015-2016 Zenedith
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
