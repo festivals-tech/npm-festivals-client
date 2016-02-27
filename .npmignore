@@ -10,3 +10,5 @@ test/
 *.ipr
 *.iws
 .idea
+swagger.yaml
+node_modules
