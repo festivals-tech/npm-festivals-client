@@ -11,10 +11,10 @@
     "festivals-model": "1.0.1",
     "q": "1.4.1",
     "request": "2.69.0",
-    "swagger-js-codegen": "1.3.1",
+    "swagger-js-codegen": "^1.3.3",
     "winston": "2.2.0",
     "winston-loggly": "1.3.1",
-    "yamljs": "0.2.6"
+    "yamljs": "^0.2.7"
   },
   "devDependencies": {
     "chai": "3.5.0",
