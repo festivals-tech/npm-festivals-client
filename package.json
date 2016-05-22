@@ -7,11 +7,11 @@
     "assert-plus": "1.0.0",
     "async": "1.5.2",
     "commander": "2.9.0",
-    "config": "1.20.1",
+    "config": "^1.20.3",
     "festivals-model": "1.0.1",
     "q": "1.4.1",
     "request": "2.72.0",
-    "swagger-js-codegen": "1.4.2",
+    "swagger-js-codegen": "^1.5.1",
     "winston": "2.2.0",
     "winston-loggly": "1.3.1",
     "yamljs": "0.2.7"
