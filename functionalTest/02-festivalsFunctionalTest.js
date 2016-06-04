@@ -11,7 +11,10 @@ var FestivalsApi = require('../lib/api/festivalsApi').FestivalsApi;
 describe('festivals functional test', function () {
 
   var options = {
-    domain: config.client.host
+    domain: config.client.host,
+    token: {
+      value: config.client.token
+    }
   };
 
   var now = moment();
@@ -84,7 +87,7 @@ describe('festivals functional test', function () {
         var response = value.response;
         var body = value.body;
 
-        console.log('fail', response.statusCode, body);
+        //console.log('fail', response.statusCode, body);
 
         throw new Error(body.message);
 
@@ -458,7 +461,7 @@ describe('festivals functional test', function () {
         var response = value.response;
         var body = value.body;
 
-        console.log('fail', response.statusCode, body);
+        //console.log('fail', response.statusCode, body);
 
         throw new Error(body.message);
 
@@ -520,7 +523,7 @@ describe('festivals functional test', function () {
         var response = value.response;
         var body = value.body;
 
-        console.log('then', response.statusCode, body);
+        //console.log('then', response.statusCode, body);
 
         response.statusCode.should.be.equal(200);
         body.total.should.be.above(0);
