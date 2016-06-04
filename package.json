@@ -23,8 +23,8 @@
   "scripts": {
     "prepublish": "npm prune",
     "test": "mocha --recursive  --timeout 6000 functionalTest",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive functionalTest",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive functionalTest"
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive  --timeout 6000 functionalTest",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive  --timeout 6000 functionalTest"
   },
   "repository": {
     "type": "git",
