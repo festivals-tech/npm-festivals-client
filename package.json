@@ -1,6 +1,6 @@
 {
   "name": "festivals-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Festivals client library.",
   "main": "./lib/index.js",
   "dependencies": {
@@ -48,9 +48,9 @@
   "license": "MIT",
   "homepage": "https://github.com/festivals-tech/npm-festivals-client",
   "engines": {
-    "node": ">=5.6.0"
+    "node": ">=6.2.0"
   },
   "readmeFilename": "README.md",
-  "_id": "festivals-client@1.0.2",
-  "_from": "festivals-client@^1.0.2"
+  "_id": "festivals-client@1.0.3",
+  "_from": "festivals-client@^1.0.3"
 }

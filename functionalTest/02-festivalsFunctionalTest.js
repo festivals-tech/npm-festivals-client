@@ -89,9 +89,7 @@ describe('festivals functional test', function () {
 
         //console.log('fail', response.statusCode, body);
 
-        throw new Error(body.message);
-
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -170,8 +168,7 @@ describe('festivals functional test', function () {
         var body = value.body;
 
         //console.log('fail', response.statusCode, body);
-        throw new Error(body.message);
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -221,8 +218,7 @@ describe('festivals functional test', function () {
         var body = value.body;
 
         //console.log('fail', response.statusCode, body);
-        throw new Error(body.message);
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -267,8 +263,7 @@ describe('festivals functional test', function () {
         var body = value.body;
 
         //console.log('fail', response.statusCode, body);
-        throw new Error(body.message);
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -329,8 +324,7 @@ describe('festivals functional test', function () {
         var body = value.body;
 
         //console.log('fail', response.statusCode, body);
-        throw new Error(body.message);
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -389,8 +383,7 @@ describe('festivals functional test', function () {
         var body = value.body;
 
         //console.log('fail', response.statusCode, body);
-        throw new Error(body.message);
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -463,9 +456,7 @@ describe('festivals functional test', function () {
 
         //console.log('fail', response.statusCode, body);
 
-        throw new Error(body.message);
-
-        done();
+        done(new Error(body.message));
       });
   });
 
@@ -536,8 +527,7 @@ describe('festivals functional test', function () {
         var body = value.body;
 
         //console.log('fail', response.statusCode, body);
-        throw new Error(body.message);
-        done();
+        done(new Error(body.message));
       });
   });
 
