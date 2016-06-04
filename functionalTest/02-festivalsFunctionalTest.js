@@ -10,6 +10,16 @@ var FestivalsApi = require('../lib/api/festivalsApi').FestivalsApi;
 
 describe('festivals functional test', function () {
 
+  var handleFail = function handleFail(value, done) {
+
+    if (value.hasOwnProperty('response') && value.hasOwnProperty('body')) {
+      console.log('fail', response.statusCode, body);
+      return done(new Error(body.message));
+    }
+
+    done(value);
+  };
+
   var options = {
     domain: config.client.host,
     token: {
@@ -84,12 +94,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -164,11 +169,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -214,11 +215,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -259,11 +256,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -320,11 +313,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -379,11 +368,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -451,12 +436,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
@@ -523,11 +503,7 @@ describe('festivals functional test', function () {
         done();
       })
       .fail(function (value) {
-        var response = value.response;
-        var body = value.body;
-
-        //console.log('fail', response.statusCode, body);
-        done(new Error(body.message));
+        handleFail(value, done);
       });
   });
 
