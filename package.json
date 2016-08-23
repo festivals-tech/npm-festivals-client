@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "istanbul": "0.4.4",
+    "istanbul": "0.4.5",
     "mocha": "3.0.2",
     "moment": "2.14.1",
     "node-uuid": "1.4.7"
