@@ -1024,9 +1024,9 @@ supports-color@^3.1.0:
   dependencies:
     has-flag "^1.0.0"
 
-swagger-js-codegen@1.7.12:
-  version "1.7.12"
-  resolved "https://registry.yarnpkg.com/swagger-js-codegen/-/swagger-js-codegen-1.7.12.tgz#0500cdaeb1149da093bc2e843a19f466c4af8f86"
+swagger-js-codegen@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/swagger-js-codegen/-/swagger-js-codegen-1.8.0.tgz#ede6c68b25d88e2ca5a340529341e17169b01d2d"
   dependencies:
     js-beautify "^1.5.1"
     jshint "^2.5.1"
