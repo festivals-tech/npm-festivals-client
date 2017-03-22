@@ -6,7 +6,7 @@
   "dependencies": {
     "commander": "2.9.0",
     "config": "1.25.1",
-    "q": "1.4.1",
+    "q": "1.5.0",
     "request": "2.81.0",
     "swagger-js-codegen": "1.8.0",
     "winston": "2.3.1",
@@ -17,8 +17,8 @@
     "chai": "3.5.0",
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
-    "moment": "2.18.0",
-    "node-uuid": "1.4.7"
+    "moment": "2.18.1",
+    "node-uuid": "1.4.8"
   },
   "scripts": {
     "prepublish": "npm prune",
