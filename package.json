@@ -4,8 +4,8 @@
   "description": "Festivals client library.",
   "main": "./lib/index.js",
   "dependencies": {
-    "commander": "2.12.2",
-    "config": "1.29.1",
+    "commander": "2.13.0",
+    "config": "1.29.2",
     "q": "1.5.1",
     "request": "2.83.0",
     "swagger-js-codegen": "1.12.0",
